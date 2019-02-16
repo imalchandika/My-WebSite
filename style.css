@@ -2419,7 +2419,7 @@ textarea {
     margin-top: 20px;
 }
 
-#skillpic_Sticker{
+.skillpic_Sticker{
     margin-top: 40px;
 }
 
@@ -2443,7 +2443,7 @@ textarea {
     
     margin: auto;
 }
-#picDiv{
+.picDiv{
     text-align: center;
 }
 
