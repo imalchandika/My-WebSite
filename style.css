@@ -970,7 +970,7 @@ textarea {
 }
 
 .form-controllar:focus {
-    border-color: none;
+    border-color: #eeeeee;
     box-shadow: none;
 }
 
@@ -1519,7 +1519,7 @@ textarea {
 .scroll_indicator:before {
     -webkit-animation: 2s cubic-bezier(0.76, 0.05, 0.86, 0.06) 0s normal none infinite running teardrop;
     animation: 2s cubic-bezier(0.76, 0.05, 0.86, 0.06) 0s normal none infinite running teardrop;
-    background: transparent -moz-linear-gradient(center top, rgba(255, 255, 255, 0), white) repeat scroll 0 0;
+    /*background: transparent -moz-linear-gradient(center top,rgba(255, 255, 255, 0), white) repeat scroll 0 0;*/
     content: "";
     display: block;
     height: 50%;
@@ -1803,14 +1803,25 @@ textarea {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+
 #cv>a{
     border:1px solid #F5AB35;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 0px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 10px;
+}
+@media (min-width: 350px) {
+    #cv a {
+        margin-left: 80px;
+        font-size: 16px;
+
+    }
+
 }
 
 /* .about_content>#personal:hover{
@@ -1860,7 +1871,7 @@ textarea {
     float: left;
     margin-left:0px;
     padding-left: 0px;
-    font: 12px;
+    font-size: 12px;
     width: auto;
     height: 30px;
     /* width: 250px; */
@@ -1896,7 +1907,7 @@ textarea {
 
 .about_content>#personal>.about-me-list>li>.spn{
     font-size: 15px;
-    font-weight: normal t;
+    font-weight: normal;
     float: left;
 
 }
@@ -1905,7 +1916,7 @@ textarea {
     
     /* text-transform: uppercase; */
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     float: left;
 }
 .about_content>#personal>.about-me-list{
@@ -1974,8 +1985,8 @@ textarea {
 @media only screen and (max-width: 991px) {
     .about_content>.info>img {
         border-width: 5px;
-        height: 250;
-        width: 250;
+        height: 250px;
+        width: 250px;
     }
     .about_content>.info>h3 {
         font-size: 24px;
@@ -2289,7 +2300,7 @@ textarea {
 .work_item .work_hover_mask .mask_container>p {
     color: #fff;
     transition: all 0.5s ease 0s;
-    padding-top: 30ox;
+    padding-top: 30px;
 }
 
 .work_item:hover .work_hover_mask {
@@ -3400,7 +3411,7 @@ body {
     padding: 20px 30px;
     background-color: white;
     position: relative;
-    border-color: 2px solid #EB9532;
+    /*border-color: 1px solid #EB9532 important!;*/
     border-radius: 6px;
 }
 
